@@ -1,0 +1,97 @@
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 3px hsl(0, 1%, 60%);
+}
+.box-one{
+    padding: 30px;
+}
+.box-one h1{
+    color: hsl(179, 62%, 43%);
+}
+.box-one h2{
+    color: hsl(71, 73%, 54%);
+}
+.box-one p{
+    padding-right: 50px;
+    color: hsl(218, 22%, 67%);
+}
+.box-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-three{
+    width: 350px;
+    height: 200px;
+    background-color: hsl(179, 62%, 43%);
+    padding: 50px;
+    border-bottom-left-radius: 7px;
+}
+.box-three h2{
+    color: hsl(0, 0%, 100%);
+}
+.box-three h1{
+    color: hsl(0, 0%, 100%);
+}
+span{
+    color: hsl(218, 22%, 67%);
+    font-size: 24px;
+}
+.box-three p{
+    color: hsl(0, 0%, 100%);
+}
+.btn{
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 100px;
+    box-shadow: 2px 2px 3px hsl(0, 2%, 39%);
+}
+.btn a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.box-four{
+    width: 350px;
+    background-color: hsl(179, 60%, 58%);
+    padding: 40px 50px;
+    border-bottom-right-radius: 7px;
+}
+.box-four h2{
+    color: hsl(0, 0%, 100%);
+}
+.box-four p{
+    color: hsl(0, 0%, 100%);
+    margin: 4px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media(max-width: 750px){
+    .container{
+        width: 400px;
+    }
+    .box-two{
+        flex-direction: column;
+    }
+    .box-three{
+        width: 300px;
+        border-bottom-left-radius: 0;
+    }
+    .box-four{
+        width: 300px;
+        border-bottom-left-radius: 7px;
+    }
+}
